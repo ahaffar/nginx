@@ -1,0 +1,11 @@
+variable "NAME" {
+    value "AHMED" {
+        environment = ["development"]
+        process = ["runbook/hello-runbook"]
+    }
+
+    value "HAFFAR" {
+        environment = ["production"]
+        process = ["runbook/hello-runbook"]
+    }
+}
